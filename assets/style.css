@@ -1,0 +1,179 @@
+/*
+
+  Filename:style.css
+  Author: :placeholder-shown
+
+  Index:
+    1.Reset - Deprecated, once Materialize already resets the formating.
+    2.Imports
+    3.General
+    4.Header
+    5.Main
+    6.Footer
+
+*/
+
+/* Reset */
+
+/*
+
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+*/
+
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* General */
+
+body {
+  font-family: Poppins, sans-serif;
+}
+
+h1 {
+  font-size: 48;
+  line-height: 120%;
+  /*margin-top: 150px;*/
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  text-align: left;
+  color: #ff00af;
+  margin-bottom: 32px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  margin-bottom: 3px;
+}
+
+::selection {
+  background-color: #ffee58;
+  color: #ff00af
+}
+
+/* Header */
+
+header {
+  color: #ffffff;
+  background: rgb(172,62,207);
+  background: -moz-linear-gradient(120deg, rgba(172,62,207,1) 0%, rgba(255,0,175,1) 100%);
+  background: -webkit-linear-gradient(120deg, rgba(172,62,207,1) 0%, rgba(255,0,175,1) 100%);
+  background: linear-gradient(120deg, rgba(172,62,207,1) 0%, rgba(255,0,175,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ac3ecf",endColorstr="#ff00af",GradientType=1);
+}
+
+header nav {
+  position: fixed;
+  background: rgb(172,62,207);
+  background: -moz-linear-gradient(120deg, rgba(172,62,207,1) 0%, rgba(255,0,175,1) 100%);
+  background: -webkit-linear-gradient(120deg, rgba(172,62,207,1) 0%, rgba(255,0,175,1) 100%);
+  background: linear-gradient(120deg, rgba(172,62,207,1) 0%, rgba(255,0,175,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ac3ecf",endColorstr="#ff00af",GradientType=1);
+}
+
+header .brand-logo {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+header #hero {
+  height: 750px;
+  justify-content: left;
+}
+
+header #hero .col {
+  padding: 0;
+}
+
+header #hero #hero-title {
+}
+
+header #hero #hero-subtitle {
+}
+
+header #hero #hero-cta {
+  color: #B633BF;
+  font-weight: 500;
+}
+
+header #hero #call-to-scroll {
+}
+
+/* Content */
+
+main {
+}
+
+main #cities {
+}
+
+main #cities #cities-title {
+}
+
+main #cities .card-image {
+  max-width: 375px;
+  max-height: 300px;
+}
+
+main #cities .card-action a {
+  color: #ff00af;
+  font-weight: 600;
+}
+
+main #menu {
+  background-color: #fff6ff;
+}
+
+main #menu #menu-title {
+}
+
+main #menu #menu-subtitle {
+}
+
+main #menu #menu-content {
+  background-color: #ffffff;
+}
+
+main #menu #menu-content .content-title {
+}
+
+main #menu #menu-content .content-list {
+}
+
+main #menu #menu-content .content-list .content-item {
+}
+
+main #stats {
+}
+
+main #stats #title {
+}
+
+main #stats #subtitle {
+}
+
+main #stats .metric-value {
+}
+
+main #stats .metric-description {
+}
+
+/* Footer */
+
+footer {
+}
+
