@@ -35,29 +35,40 @@
 
 body {
   font-family: Poppins, sans-serif;
+  color: #60495f;
 }
 
 h1 {
-  font-size: 48;
+  font-size: 3rem;
   line-height: 120%;
-  /*margin-top: 150px;*/
+  margin-top: 0rem;
   font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 h4 {
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   font-weight: 600;
   text-align: left;
   color: #ff00af;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 h5 {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   font-weight: 400;
-  margin-bottom: 3px;
+  margin-bottom: 0.2rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  text-align: left;
+  color: #60495f;
+  margin-bottom: 32px;
 }
 
 ::selection {
@@ -86,12 +97,19 @@ header nav {
 }
 
 header .brand-logo {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
+header #hero-bg {
+  background-image: url(../assets/img/mapa.svg);
+  background-repeat: no-repeat;
+  background-position: -85% -6rem;
+  background-attachment: fixed;
+}
+
 header #hero {
-  height: 750px;
+  height: 45rem;
   justify-content: left;
 }
 
@@ -100,17 +118,37 @@ header #hero .col {
 }
 
 header #hero #hero-title {
+  margin-bottom: -0.5rem;
+  margin-top: -4rem;
+  max-width: 40rem;
 }
 
 header #hero #hero-subtitle {
+  margin-bottom: 1rem;
+  max-width: 30rem;
 }
 
-header #hero #hero-cta {
+header #hero a#hero-cta {
+  color: #ff00af;
+  font-weight: 600;
+  overflow: none;
+}
+
+header #hero a#hero-cta:hover {
   color: #B633BF;
-  font-weight: 500;
+  background:yellow
 }
 
-header #hero #call-to-scroll {
+section#call-to-scroll {
+  color: #ff00af;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+section#call-to-scroll i{
+  font-size: 3rem;
+  margin-top: -0.5rem
 }
 
 /* Content */
@@ -122,6 +160,7 @@ main #cities {
 }
 
 main #cities #cities-title {
+ 
 }
 
 main #cities .card-image {
@@ -134,14 +173,20 @@ main #cities .card-action a {
   font-weight: 600;
 }
 
+main #cities .card-action a:hover {
+  color: #B633BF;
+}
+
 main #menu {
   background-color: #fff6ff;
+  padding: 2rem 0;
 }
 
 main #menu #menu-title {
 }
 
 main #menu #menu-subtitle {
+  margin: -1rem 0 2rem;
 }
 
 main #menu #menu-content {
@@ -149,15 +194,33 @@ main #menu #menu-content {
 }
 
 main #menu #menu-content .content-title {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: left;
+  padding: 1rem 1rem 0;
 }
 
 main #menu #menu-content .content-list {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: left;
+  padding: 0 1rem;
+  margin-left: 1.5rem;
 }
 
 main #menu #menu-content .content-list .content-item {
+  padding: 0.1rem;
 }
 
 main #stats {
+  padding: 4rem 0;
+  background-image: url(../assets/img/stats.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 6rem;
+  background-size: 100% auto;
 }
 
 main #stats #title {
@@ -167,13 +230,25 @@ main #stats #subtitle {
 }
 
 main #stats .metric-value {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 5rem;
+  color: #fe03b0;
+  text-shadow: 0 0 1.5rem #ffffff;
+  padding-top: 2rem;
 }
 
 main #stats .metric-description {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #60495f;
+  padding-bottom: 2rem;
 }
 
 /* Footer */
 
 footer {
+  background: #B633BF !important;
 }
 
